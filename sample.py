@@ -6,6 +6,11 @@ def add(a, b):
     return a + b
 
 
+def multiply(a, b):
+    """Return the product of a and b."""
+    return a * b
+
+
 def greet(name):
     """Return a greeting for name."""
     return f"Hello, {name}!"
@@ -14,6 +19,7 @@ def greet(name):
 def main():
     print(greet("CodeRabbit"))
     print(add(2, 3))
+    print(multiply(2, 3))
 
 
 if __name__ == "__main__":
